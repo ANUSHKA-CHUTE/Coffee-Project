@@ -1,1 +1,32 @@
 @import "tailwindcss";
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5733;
+    background: #000;
+    padding: 10px 0;
+}
+
+.marquee span {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+@media (max-width: 768px) {
+    .hero {
+        height: 50vh; /* Adjust height for smaller screens */
+        font-size: 6vw;
+    }
+    .hee{
+        font-size: 3vw;
+        height: 5vh;
+    }
+ 
+}
