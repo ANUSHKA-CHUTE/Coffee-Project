@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Marq = () => {
   return (
-    <div className='hee h-[40px] w-full bg-[#301611] text-white text-center flex justify-center items-center fixed '>
+    <div className='hee h-[40px] w-full bg-[#301611] text-white text-center flex justify-center items-center  '>
 
        
       

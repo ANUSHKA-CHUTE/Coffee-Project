@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 .marquee {
     white-space: nowrap;
     overflow: hidden;
@@ -19,6 +20,10 @@
     from { transform: translateX(100%); }
     to { transform: translateX(-100%); }
 }
+
+
+
+
 @media (max-width: 768px) {
     .hero {
         height: 50vh; /* Adjust height for smaller screens */
@@ -27,6 +32,73 @@
     .hee{
         font-size: 3vw;
         height: 5vh;
+        width: 90vw;
+    }
+    .hea{
+        font-size: 3vw;
+        height: 30vh;
+        width: 90vw;
     }
  
 }
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.dropdown-text {
+    display: flex;
+    align-items: center;
+    /* gap: 5px; */
+}
+
+.dropdown-text::after {
+    content: "▼"; /* Downward arrow */
+    font-size: 12px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 5px 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+.dropdown-content a:hover {
+    background: lightgray;
+}
+.hs , .grab{
+    font-family: "Sigmar", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  .grab{
+    transform: scaleY(1); /* Adjust the value for more stretching */
+    display: inline-block; 
+  }
+  .ha,.hd{
+    font-weight: 400;
+  }
+  .lk{
+        box-shadow: 0px 4px 10px rgba(0, 1, 10, 1); /* X-offset, Y-offset, Blur, Color */
+        /* padding: 20px; */
+        /* border-radius: 8px; Optional for smooth edges */
+        /* background: white; */
+  }
