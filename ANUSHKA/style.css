@@ -33,6 +33,11 @@ body{
     
 }
 
+main{
+
+    width: 100%;
+    height: 1500px;
+}
 
 .nav-bar
 {
@@ -64,10 +69,14 @@ body{
 .nav-panel
 {   
     
-    height: 100px;
+    height: 80px;
     background-color: rgb(141, 35, 35);
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     color: white;
+    padding: 20px ;
+    
     
 
 }
@@ -83,14 +92,47 @@ body{
 .p3 button
 {
     border-radius: 20px 20px 20px 20px;
-    width: 100px;
+    width: 280px;
     height: 40px;
     background-color: rgb(229, 173, 69);
     color: black;
     font-weight: bold;
+    margin-top: -10px;
 }
-/* 
+
+.p3 button:hover{
+    border: 4px solid transparent;
+}
+
 .p2
 {
-    width: 20px;
-} */
+    margin-left: 210px;
+}
+
+.con
+{
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+    /* color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.con h1{
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.ci{
+
+    background-image: url(assets/two-cups.jpg);
+    /* width: 000px; */
+    height: 800px;
+    background-size: cover;
+}
