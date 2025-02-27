@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 .marquee {
     white-space: nowrap;
     overflow: hidden;
@@ -83,10 +84,14 @@
 .dropdown-content a:hover {
     background: lightgray;
 }
-.hs{
+.hs , .grab{
     font-family: "Sigmar", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
+  }
+  .grab{
+    transform: scaleY(1); /* Adjust the value for more stretching */
+    display: inline-block; 
   }
   .ha,.hd{
     font-weight: 400;
