@@ -7,6 +7,7 @@ import Two from "./components/Two"
 import Mtwo from "./components/Mtwo"
 import Baris from "./components/Baris"
 import Pone from "./components/Pone"
+import Cof from "./components/Cof"
 const App = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const App = () => {
       <Mtwo/>
       <Baris/>
       <Pone/>
+      <Cof/>
     </div>
   )
 }
