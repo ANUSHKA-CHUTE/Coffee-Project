@@ -3,7 +3,7 @@ import oi from '../assets/oi.png'
 import p1 from '../assets/pack1.png'
 import p2 from '../assets/pack2.png'   
 import p3 from '../assets/pack3.png'   
-
+import c1 from '../assets/co.jpg'
 const pone = () => {
   return (
     <div className=" hg">
