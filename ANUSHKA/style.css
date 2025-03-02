@@ -100,8 +100,9 @@ main {
     border: 4px solid transparent;
 }
 
-.p2 {
-    margin-left: 210px;
+.p2 i  {
+    /* margin-left: 210px; */
+    
 }
 
 .con {
