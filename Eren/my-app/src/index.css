@@ -36,7 +36,11 @@
     font-size: 3vw;
     /* color: #5c3e37; */
   }
-
+ .no{
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+ }
 
 @media (max-width: 768px) {
     .hero {
