@@ -320,14 +320,54 @@ h2 {
     width: 400px;
     height: 500px;
     background-size: cover;
-    background-image: url(assets/ff12372e85ab9e520a898216c3f5bb67298cb6c2-3000x3000.avif);
+    background-image: url(assets/images\ \(4\).png);
+    margin-left: 20px;
 }
 
 
 .img53 {
 
     width: 400px;
-    height: 500px;
+    height: 480px;
     background-size: cover;
-    background-image: url(assets/ff12372e85ab9e520a898216c3f5bb67298cb6c2-3000x3000.avif);
+    background-image: url(assets/61hmalZ7WzL._AC_UL210_SR210\,210_.png) ;
+    margin-top: 24px;
+}
+
+.m6
+{
+
+    height: 400px;
+    background-color: rgb(80, 23, 23);
+    margin-top: 100px;
+    
+
+}
+
+.m6 h1{
+
+    color: rgb(235, 200, 29);
+    font-size: 40px;
+    font-weight: 900;
+    width: 350vw;
+    /* margin-left: 0px; */
+}
+
+.img61{
+    background-image: url(assets/71pjGHKCsOL.jpg);
+    width: 140vw;
+    height: 140PX;
+    background-size: cover;
+    margin-left: -280px;
+    margin-top: 200px;
+}
+
+
+.img62{
+    background-image: url(assets/71pjGHKCsOL.jpg);
+    width: 500px;
+    height: 140PX;
+    background-size: cover;
+    margin-left: -1550px;
+    margin-top: 240px;
 }
