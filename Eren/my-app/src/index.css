@@ -60,7 +60,14 @@
  
 }
 
-
+.vertical-hr { 
+    margin-left: 550px;
+    width: 2px;
+    height: 200px;
+    background-color: black;
+    border: none;
+    position: absolute;
+  }
 
 
 .dropdown {
@@ -120,3 +127,7 @@
         /* border-radius: 8px; Optional for smooth edges */
         /* background: white; */
   }
+  .hg{
+    background: linear-gradient(180deg, #fff 0%, #f4eaea 20%, #f8e5e6 100%);
+    /* margin-top: 5rem; */
+}
