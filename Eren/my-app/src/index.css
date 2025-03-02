@@ -28,8 +28,19 @@
     font-size: 3vw;
     color: #5c3e37;
   }
-  
-
+  .po{
+    background-image: url(./assets/co.png);
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+    /* color: #5c3e37; */
+  }
+ .no{
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+ }
 
 @media (max-width: 768px) {
     .hero {
@@ -49,7 +60,14 @@
  
 }
 
-
+.vertical-hr { 
+    margin-left: 550px;
+    width: 2px;
+    height: 200px;
+    background-color: black;
+    border: none;
+    position: absolute;
+  }
 
 
 .dropdown {
@@ -109,3 +127,7 @@
         /* border-radius: 8px; Optional for smooth edges */
         /* background: white; */
   }
+  .hg{
+    background: linear-gradient(180deg, #fff 0%, #f4eaea 20%, #f8e5e6 100%);
+    /* margin-top: 5rem; */
+}

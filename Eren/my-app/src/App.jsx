@@ -5,6 +5,8 @@ import Header from "./components/Header"
 import Grab from "./components/Grab"
 import Two from "./components/Two"
 import Mtwo from "./components/Mtwo"
+import Baris from "./components/Baris"
+import Pone from "./components/Pone"
 const App = () => {
   return (
     <div>
@@ -13,6 +15,8 @@ const App = () => {
       <Grab/>
       <Two/>
       <Mtwo/>
+      <Baris/>
+      <Pone/>
     </div>
   )
 }
