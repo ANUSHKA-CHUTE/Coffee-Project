@@ -337,7 +337,7 @@ h2 {
 .m6
 {
 
-    height: 400px;
+    height: 500px;
     background-color: rgb(80, 23, 23);
     margin-top: 100px;
     
@@ -356,18 +356,18 @@ h2 {
 .img61{
     background-image: url(assets/71pjGHKCsOL.jpg);
     width: 140vw;
-    height: 140PX;
+    height: 160PX;
     background-size: cover;
     margin-left: -280px;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 
 .img62{
     background-image: url(assets/71pjGHKCsOL.jpg);
-    width: 500px;
-    height: 140PX;
+    width: 400px;
+    height: 160PX;
     background-size: cover;
-    margin-left: -1550px;
-    margin-top: 240px;
+    margin-left: -1340px;
+    margin-top: 310px;
 }
