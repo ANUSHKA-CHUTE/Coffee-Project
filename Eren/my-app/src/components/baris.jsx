@@ -41,12 +41,7 @@ const Baris = () => {
        
 
         </div>
-
-
-
-
-
-       </div>
+</div>
     </div>
   )
 }
