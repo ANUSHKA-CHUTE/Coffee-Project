@@ -30,8 +30,9 @@ const pone = () => {
         <div className="prize"> 1899</div>
     </div>
 </div>
-<hr></hr>
-{/* <hr class="vertical-hr">      </hr> */}
+
+{/* <hr></hr> */}
+{/* <hr class="vertical-hr">  </hr> */}
 
 <div className=" grid   gap-4">
     <img src={p1}></img>
@@ -41,7 +42,6 @@ const pone = () => {
     </div>
 </div>
 <hr class="vertical-hr">
-
 </hr>
 
 <div className=" grid   gap-4">

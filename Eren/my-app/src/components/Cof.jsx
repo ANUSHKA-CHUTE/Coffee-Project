@@ -5,8 +5,9 @@ import c3 from '../assets/de.png'
 
 const Cof = () => {
   return (
-    <div style={{backgroundImage: `url(${c1})`, backgroundSize: 'cover'}} className='h-[340px] w-full grid    '> 
+<div style={{backgroundImage: `url(${c1})`, backgroundSize: 'cover'}} className='h-[340px] w-full grid'> 
       
+
 
 <div className="flex justify-center items-center mt-[30px]">
   <div className="foet mr-[-45px]">COFFEE</div>
@@ -23,7 +24,8 @@ const Cof = () => {
 </div>
 
 
-<div className="fort text-[#ef6d0a] font-extralight text-4xl ml-[1300px] mt-[-200px] ">Love my coffee</div>
+
+<div className="fort text-[#ef6d0a] font-extralight text-5xl ml-[1250px] mt-[-190px] ">Love my coffee</div>
 
 
 
@@ -31,7 +33,7 @@ const Cof = () => {
 
 
 
-    </div>
+</div>
   )
 }
 

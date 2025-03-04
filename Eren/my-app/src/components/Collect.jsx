@@ -11,10 +11,10 @@ const Collect = () => {
 
 
 <div className="grid">
-<div className="siglesentence">COLLECT BEAN FROM</div>
+<div className="siglesentence ulu">COLLECT BEAN FROM</div>
 <div className="siglesentencewithimage">
- <div className="text">MOTHER NATURE</div>  <div className="image"></div>
- 
+ <div className="text ulu">MOTHER NATURE</div>  <div className="image"></div>
+
 </div>
 <div className="info">It's always exciting to bring in coffee from a country we've never featured & while Peru isn't a super rare origin</div>
 <div className="buttonplusing flex justify-center items-center">
