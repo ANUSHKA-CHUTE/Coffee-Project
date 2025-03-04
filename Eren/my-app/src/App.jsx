@@ -8,6 +8,7 @@ import Mtwo from "./components/Mtwo"
 import Baris from "./components/Baris"
 import Pone from "./components/Pone"
 import Cof from "./components/Cof"
+import Collect from "./components/Collect"
 const App = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const App = () => {
       <Baris/>
       <Pone/>
       <Cof/>
+      <Collect/>
     </div>
   )
 }
