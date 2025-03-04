@@ -10,7 +10,15 @@
     background: #000;
     padding: 10px 0;
 }
-
+.foet{
+    font-family: "Sigmar", serif;
+    font-size: xxx-large;
+    color: #FACB4C;
+}
+.fort{
+    font-family: "Satisfy", serif;
+    
+}
 .marquee span {
     display: inline-block;
     animation: marquee 10s linear infinite;
