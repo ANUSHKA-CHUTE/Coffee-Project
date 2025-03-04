@@ -337,7 +337,7 @@ h2 {
 .m6
 {
 
-    height: 400px;
+    height: 500px;
     background-color: rgb(80, 23, 23);
     margin-top: 100px;
     
@@ -346,7 +346,7 @@ h2 {
 
 .m6 h1{
 
-    color: rgb(235, 200, 29);
+    color: rgb(255, 188, 20);
     font-size: 40px;
     font-weight: 900;
     width: 350vw;
@@ -356,18 +356,50 @@ h2 {
 .img61{
     background-image: url(assets/71pjGHKCsOL.jpg);
     width: 140vw;
-    height: 140PX;
+    height: 160PX;
     background-size: cover;
     margin-left: -280px;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 
 .img62{
-    background-image: url(assets/71pjGHKCsOL.jpg);
+    background-image: url(assets/s-l400.jpg);
+    width: 230px;
+    height: 200PX;
+    background-size: contain;
+    margin-left: -1370px;
+    margin-top: 310px;
+}
+
+.em
+{
+    height: 1500px;
+    background-color: rgb(248, 244, 244);
+    margin-top: 490px;
+}
+
+.ei-1{
+
+    background: url(assets/ff12372e85ab9e520a898216c3f5bb67298cb6c2-3000x3000.avif);
     width: 500px;
-    height: 140PX;
+    height: 550px;
+    position: absolute;
     background-size: cover;
-    margin-left: -1550px;
-    margin-top: 240px;
+    margin-top: 550px;
+    /* opacity: 0.5; */
+}
+
+.ei-2
+{   width: 400px;
+    height: 330px;
+    margin-top: 550px;
+    background-size: cover;
+    background: url(assets/Vietnam-coffee-pickers.jpg);
+    /* margin-left: -80px; */
+    /* background-blend-mode: multiply; */
+    position: absolute;
+  margin-left: 415px;
+  opacity: 0.9;
+
 }
