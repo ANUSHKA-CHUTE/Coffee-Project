@@ -309,29 +309,30 @@ h2 {
 
 
     width: 400px;
-    height: 500px;
+    height: 480px;
     background-size: cover;
     background-image: url(assets/ff12372e85ab9e520a898216c3f5bb67298cb6c2-3000x3000.avif);
+    margin-top: 25px;
 
 }
 
 .img52 {
 
-    width: 400px;
-    height: 500px;
+    width: 520px;
+    height: 700px;
     background-size: cover;
-    background-image: url(assets/images\ \(4\).png);
-    margin-left: 20px;
+    background-image: url(assets/9f06f03661807b493757e0780ed52cc879b9f7b8-3000x3000.png);
+    margin-left: 10px;
 }
 
 
 .img53 {
 
-    width: 400px;
-    height: 480px;
+    width: 520px;
+    height: 700px;
     background-size: cover;
-    background-image: url(assets/61hmalZ7WzL._AC_UL210_SR210\,210_.png) ;
-    margin-top: 24px;
+    background-image: url(assets/7aefbd2ed2d9c2974b003c8fe8c1e6ebf8efe584-3000x3000.png) ;
+    /* margin-top: 24px; */
 }
 
 .m6
