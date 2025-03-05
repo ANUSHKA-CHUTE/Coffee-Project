@@ -4,7 +4,7 @@
     font-family: Arial;
     box-sizing: border-box;
     width: 100%;
-    color: black;
+    /* color: black; */
 }
 
 html {
@@ -375,7 +375,7 @@ h2 {
 
 .em
 {
-    height: 1500px;
+    height: 1640px;
     background-color: rgb(248, 244, 244);
     margin-top: 460px;
 }
@@ -419,3 +419,70 @@ h2 {
     justify-content: space-evenly;
     align-items: center;
 }
+
+.bem1
+{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/Mocha-Pumpkin-Latte-BBN-8.23-989.jpg);
+}
+
+
+.bem2
+{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/Chocolate-Syrup-Recipe_1000pxCloseUp_70.webp);
+    
+
+}
+
+
+.bem3
+{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/pouring-chocolate-syrup-scoop-vanilla-sundae-ice-cream-generative-ai_431161-1529.avif);
+    
+}
+
+
+.bem4
+{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/foot.jpg);
+}
+
+
+.bem5
+{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/f1e7a172f1eb869f539e826a3c1bca4c.jpg);
+}
+
+.bem6
+{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/8e7247f2af954f3e974c6e06e8c97ae1.jpg);
+} 
+
+.bem1 , .bem2 , .bem3 , .bem4 , .bem5:hover
+/* {
+    border: 2px solid transparent;
+    box-shadow: 2px solid green;
+} */
