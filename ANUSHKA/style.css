@@ -4,7 +4,7 @@
     font-family: Arial;
     box-sizing: border-box;
     width: 100%;
-    color: white;
+    color: black;
 }
 
 html {
@@ -404,4 +404,18 @@ h2 {
   margin-left: 415px;
   opacity: 0.9;
 
+}
+
+
+.ccf1 , .ccf2 , .ccf3
+
+{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(240, 216, 185, 0.342);
+    margin-top: 60px;
+    
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
 }
