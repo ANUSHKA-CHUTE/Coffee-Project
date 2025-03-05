@@ -1,12 +1,12 @@
 import React from 'react'
-// import g1 from '../assets/g1.png'
-// import g2 from '../asstes/g2.png'
+import Ja from '../assets/text.png'
+import PA from '../assets/pab.png'
 const Collect = () => {
   return (
     <div className='h-[500px] w-full flex justify-center items-center'>
       
 <div className="">
-  <img ></img>
+  <img className='mt-[200px ] h-[700px] mr-[100px]' src={PA}></img>
 </div>
 
 
@@ -14,7 +14,7 @@ const Collect = () => {
 <div className="grid">
 <div className="siglesentence ulu">COLLECT BEAN FROM</div>
 <div className="siglesentencewithimage">
-<div className="text ulu">MOTHER NATURE</div>  <div className="image"></div>
+<div className="text ulu flex justify-center items-center">MOTHER NATURE</div>  <div className="image"><img className='mt-[-100px]  h-[300px]' src={Ja}></img></div>
 
 </div>
 <div className="info">It's always exciting to bring in coffee from<br></br> a country we've never featured & while Peru<br></br> isn't a super rare origin</div>
