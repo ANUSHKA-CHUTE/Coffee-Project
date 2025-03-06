@@ -7,7 +7,7 @@ const Review = () => {
   return (
     <div className='h-[500px] w-full grid place-items-center'> 
       <div className="flex justify-center items-center">
-      <div className=" text-[] text-2xl">CUSTOMERS FEEDBACK</div>
+      <div className=" text-[#803d41] text-[50px] font-bold forr">CUSTOMERS FEEDBACK</div>
       <div className="flex justify-center items-center gap-[30px]">
 
       <div className="h-[60px] flex justify-center items-center w-[60px] rounded-full border-2">&larr;</div>
