@@ -9,6 +9,7 @@ import Baris from "./components/Baris"
 import Pone from "./components/Pone"
 import Cof from "./components/Cof"
 import Collect from "./components/Collect"
+import Review from "./components/Review"
 const App = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const App = () => {
       <Pone/>
       <Cof/>
       <Collect/>
+      <Review/>
     </div>
   )
 }
