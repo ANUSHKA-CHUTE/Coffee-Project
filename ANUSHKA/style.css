@@ -38,6 +38,7 @@ main {
 
     width: 100%;
     height: 1500px;
+    
 }
 
 .nav-bar {
@@ -422,18 +423,19 @@ h2 {
 
 .bem1
 {
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     background-size: cover;
     /* background-color: aqua; */
     background-image: url(assets/Mocha-Pumpkin-Latte-BBN-8.23-989.jpg);
+    margin-left: -100PX;
 }
 
 
 .bem2
 {
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     background-size: cover;
     /* background-color: aqua; */
     background-image: url(assets/Chocolate-Syrup-Recipe_1000pxCloseUp_70.webp);
@@ -444,8 +446,8 @@ h2 {
 
 .bem3
 {
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     background-size: cover;
     /* background-color: aqua; */
     background-image: url(assets/pouring-chocolate-syrup-scoop-vanilla-sundae-ice-cream-generative-ai_431161-1529.avif);
@@ -455,8 +457,8 @@ h2 {
 
 .bem4
 {
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     background-size: cover;
     /* background-color: aqua; */
     background-image: url(assets/foot.jpg);
@@ -465,8 +467,8 @@ h2 {
 
 .bem5
 {
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     background-size: cover;
     /* background-color: aqua; */
     background-image: url(assets/f1e7a172f1eb869f539e826a3c1bca4c.jpg);
@@ -474,15 +476,32 @@ h2 {
 
 .bem6
 {
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 170px;
     background-size: cover;
     /* background-color: aqua; */
     background-image: url(assets/8e7247f2af954f3e974c6e06e8c97ae1.jpg);
+    margin-right: -27px;
+} 
+ 
+.em3-img img
+{
+    /* border: 2px solid transparent; */
+    /* box-shadow: 2px solid green; */
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+
 } 
 
-.bem1 , .bem2 , .bem3 , .bem4 , .bem5:hover
-/* {
-    border: 2px solid transparent;
-    box-shadow: 2px solid green;
-} */
+.em3-img{
+
+
+    height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+gap: 10px; 
+
+
+}
