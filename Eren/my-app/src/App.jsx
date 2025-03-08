@@ -11,6 +11,7 @@ import Cof from "./components/Cof"
 import Collect from "./components/Collect"
 import Review from "./components/Review"
 import Image from "./components/Image"
+import Footer from "./components/Footer"
 const App = () => {
   return (
     <div>
@@ -25,6 +26,8 @@ const App = () => {
       <Collect/>
       <Review/>
       <Image/>
+      <Footer
+      />
     </div>
   )
 }

@@ -2,8 +2,8 @@ import React from 'react'
 import B90 from '../assets/B90.jpg'
 import B92 from '../assets/foot.jpg'
 import B91 from '../assets/foot.png'  
-import B93 from '../assets/foot1.jpg'
-import B95 from '../assets/foot2.jpg'
+import B93 from '../assets/foot.jpg'
+import B95 from '../assets/foot.png'
 const Images = () => {
   return (
     <div className='grid h-[600px] w-full'>
