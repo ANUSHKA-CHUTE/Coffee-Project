@@ -15,7 +15,7 @@ const Review = () => {
       <div className="h-[60px] flex justify-center items-center w-[60px] rounded-full border-2">&rarr;</div>
       </div></div>
 
-      <div className="flex justify-center items-center">
+      <div className="flex justify-evenly gap-30   items-center">
 
       <div className="grid rounded-2xl h-[250px] w-[300px] border-2 border-[#ffffff] bg-[#f3ece1] text-[#301611]">  
         <div className="flex ml-5  mt-4">
