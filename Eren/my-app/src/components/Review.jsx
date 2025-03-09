@@ -8,7 +8,7 @@ const Review = () => {
     <div className='h-[500px] mt-[140px] w-full grid place-items-center'> 
 
       <div className="flex justify- items-center">
-      <div className=" text-[#803d41] text-[50px] font-bold forr">CUSTOMERS FEEDBACK</div>
+      <div className=" text-[#b1555b] text-[50px] font-bold forr">CUSTOMERS FEEDBACK</div>
       <div className="flex justify-center items-center gap-[30px] ml-[400px]">
 
       <div className="h-[60px] flex justify-center items-center w-[60px] rounded-full border-2">&larr;</div>
