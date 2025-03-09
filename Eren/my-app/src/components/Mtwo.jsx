@@ -5,7 +5,7 @@ const Mtwo = () => {
     <div className=' mt-[180px] w-full grid place-items-center '>
       
       <div className="rer">coffee  ?</div>
-      <div className="h-[300px] w-full text-amber-50 border-black  flex justify-center items-center po">
+      <div className="h-[300px] w-full text-[#713f42] border-2 border-[#ffffff]  flex justify-center items-center po">
         BEST COFFEE BEANS
       </div>
     </div>
