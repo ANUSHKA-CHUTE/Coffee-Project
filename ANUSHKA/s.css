@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+    width: 100%;
+    /* color: black; */
+}
+
+html {
+
+    /* background-color: rgb(134, 106, 106); */
+    font-size: 15px;
+    scroll-behavior: smooth;
+    /* border: 4px solid  rgb(134, 106, 106); */
+
+}
+
+/* 
+head
+{
+    height: 200px;
+} */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    /* background-color: rgb(134, 106, 106); */
+    /* padding: 30px; */
+    border: 20px solid rgb(134, 106, 106);
+    width: 100%;
+    height: auto;
+
+
+}
+
+main {
+
+    width: 100%;
+    height: 4600px;
+    
+}
+
+.nav-bar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(51, 16, 16);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ic {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    gap: 20px;
+    width: 100%;
+    margin-left: 80px;
+
+}
+
+.ic i {
+    width: 5px;
+}
+
+.nav-panel {
+
+    height: 80px;
+    background-color: rgb(141, 35, 35);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 20px;
+
+
+
+}
+
+.p1,
+.p3 {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.p3 button {
+    border-radius: 20px 20px 20px 20px;
+    width: 280px;
+    height: 40px;
+    background-color: rgb(229, 173, 69);
+    color: black;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.p3 button:hover {
+    border: 4px solid transparent;
+}
+
+.p2 i  {
+    /* margin-left: 210px; */
+    
+}
+
+.con {
+    width: 100%;
+    height: 150px;
+    background-color: antiquewhite;
+    /* color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.con h1 {
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    /* font-size: 60px; */
+    font-weight: 900;
+    /* margin-top: -20px; */
+    gap: 40px;
+}
+
+
+.ci {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 30px; */
+}
+
+.ci-img {
+
+    background-image: url(assets/two-cups.jpg);
+    /* width: 000px; */
+    height: 650px;
+    background-size: cover;
+
+}
+
+.ci-i2 {
+    background-image: url(assets/images.jpeg);
+    width: 170px;
+    height: 270px;
+    margin-left: 1070px;
+    margin-top: 100px;
+}
+
+.play-btn {
+    /* background: black; */
+    /* color: black; */
+    padding: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1070px;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.m2 {
+    background-color: rgb(252, 251, 249);
+    width: 100%;
+    height: 800px;
+}
+
+.m2 h1 {
+
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-top: 30px;
+    /* font-weight: 900; */
+
+}
+
+.m-22 h1 {
+
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 10px; */
+    /* padding-top: 50px; */
+    font-weight: 900;
+}
+
+.m23 {
+    width: 90%;
+    height: 500px;
+    border: 2px solid brown;
+    color: black;
+    margin-left: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.m2-2 {
+    background-image: url(assets/barista-.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 496px;
+}
+
+.m3-1 {
+    display: grid;
+    /* border: 2px solid brown; */
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.m333 {
+    width: 410px;
+    height: 230px;
+    border-bottom: 2px solid brown;
+    /* background-color: aqua; */
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.m333 h2 {
+
+    margin-top: 110px;
+    padding-bottom: 20px;
+}
+
+.m3-3 {
+    display: grid;
+    /* border: 2px solid brown; */
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+
+
+.m444 {
+    width: 410px;
+    height: 100px;
+    border-bottom: 2px solid brown;
+    margin-top: 150px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.m444 h2 {
+    margin-top: -40px;
+    padding-bottom: 20px;
+}
+
+.m445,
+.m334 {
+
+    width: 410px;
+    height: 100px;
+    /* border-bottom: 4px solid brown; */
+    margin-top: 80px;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.m445,
+.m334,
+h2 {
+
+    padding-bottom: 10px;
+}
+
+.m5 {
+    /* margin-top: -40px; */
+    width: 100%;
+    height: 970px;
+    background: linear-gradient(to bottom, rgb(252, 252, 250), rgb(230, 221, 202), rgb(247, 235, 212));
+
+}
+
+.m51 {
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.cart5-1 {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.img51 {
+
+
+    width: 400px;
+    height: 480px;
+    background-size: cover;
+    background-image: url(assets/ff12372e85ab9e520a898216c3f5bb67298cb6c2-3000x3000.avif);
+    margin-top: 25px;
+
+}
+
+.img52 {
+
+    width: 520px;
+    height: 700px;
+    background-size: cover;
+    background-image: url(assets/9f06f03661807b493757e0780ed52cc879b9f7b8-3000x3000.png);
+    margin-left: 10px;
+}
+
+
+.img53 {
+
+    width: 520px;
+    height: 700px;
+    background-size: cover;
+    background-image: url(assets/7aefbd2ed2d9c2974b003c8fe8c1e6ebf8efe584-3000x3000.png) ;
+    /* margin-top: 24px; */
+}
+
+.m6
+{
+
+    height: 500px;
+    background-color: rgb(80, 23, 23);
+    margin-top: 100px;
+    
+
+}
+
+.m6 h1{
+
+    color: rgb(255, 188, 20);
+    font-size: 40px;
+    font-weight: 900;
+    width: 350vw;
+    /* margin-left: 0px; */
+}
+
+.img61{
+    background-image: url(assets/71pjGHKCsOL.jpg);
+    width: 140vw;
+    height: 160PX;
+    background-size: cover;
+    margin-left: -280px;
+    margin-top: 250px;
+}
+
+
+.img62{
+    background-image: url(assets/s-l400.jpg);
+    width: 230px;
+    height: 200PX;
+    background-size: contain;
+    margin-left: -1370px;
+    margin-top: 310px;
+}
+
+.em
+{
+    height: 1640px;
+    background-color: rgb(248, 244, 244);
+    margin-top: 460px;
+}
+
+.ei-1{
+
+    background: url(assets/ff12372e85ab9e520a898216c3f5bb67298cb6c2-3000x3000.avif);
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    background-size: cover;
+    margin-top: 550px;
+    /* opacity: 0.5; */
+}
+
+.ei-2
+{  
+     width: 400px;
+    height: 330px;
+    margin-top: 550px;
+    background-size: cover;
+    background: url(assets/Vietnam-coffee-pickers.jpg);
+    /* margin-left: -80px; */
+    /* background-blend-mode: multiply; */
+    position: absolute;
+  margin-left: 415px;
+  opacity: 0.9;
+
+}
+
+
+.ccf1 , .ccf2 , .ccf3
+
+{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(240, 216, 185, 0.342);
+    margin-top: 60px;
+    
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bem1
+{
+    height: 220px;
+    width: 220px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/Mocha-Pumpkin-Latte-BBN-8.23-989.jpg);
+    margin-left: -100PX;
+}
+
+
+.bem2
+{
+    height: 220px;
+    width: 220px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/Chocolate-Syrup-Recipe_1000pxCloseUp_70.webp);
+    
+
+}
+
+
+.bem3
+{
+    height: 220px;
+    width: 220px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/pouring-chocolate-syrup-scoop-vanilla-sundae-ice-cream-generative-ai_431161-1529.avif);
+    
+}
+
+
+.bem4
+{
+    height: 220px;
+    width: 220px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/foot.jpg);
+}
+
+
+.bem5
+{
+    height: 220px;
+    width: 220px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/f1e7a172f1eb869f539e826a3c1bca4c.jpg);
+}
+
+.bem6
+{
+    height: 220px;
+    width: 170px;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(assets/8e7247f2af954f3e974c6e06e8c97ae1.jpg);
+    margin-right: -27px;
+} 
+ 
+.em3-img img
+{
+    /* border: 2px solid transparent; */
+    /* box-shadow: 2px solid green; */
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+
+} 
+
+.em3-img{
+
+
+    height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+gap: 10px; 
+
+
+}
+
+.f1-21 a{
+
+
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+.f1-22
+{
+    margin-bottom: -50px;
+    margin-left: 60px;
+
+}
