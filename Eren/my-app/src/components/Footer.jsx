@@ -82,7 +82,7 @@ const Footer = () => {
             </div>
 
             <div className="">©2025Vedant-LTT</div>
-            <div className="">
+            <div className="flex justify-center items-center gap-5 ml-[100px]">
             <FaTwitter />
             <FaInstagram />
             <IoLogoTiktok />
