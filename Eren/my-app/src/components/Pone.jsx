@@ -25,9 +25,9 @@ const pone = () => {
 
 <div className=" grid   gap-4">
     <img className='h-[350px]' src={p2}></img>
-    <div className="h-[40px] w-[240px] ml-[70px] mt-[-10px] rounded-xl bg-[#ffffff]  drop-shadow-2xl flex justify-between items-center">
+    <div className="h-[40px] w-[240px] ml-[70px] mt-[-10px] font-medium rounded-xl bg-[#ffffff]  drop-shadow-2xl flex justify-evenly items-center">
         <div className="pro">  SEASONAL ESPRESSO</div>
-        <div className="prize"> 1899</div>
+        <div className="prize font-medium text-amber-600"> 1899</div>
     </div>
 </div>
 
@@ -36,9 +36,9 @@ const pone = () => {
 
 <div className=" grid   gap-4">
     <img src={p1}></img>
-    <div className="h-[40px] w-[240px] ml-[150px] mt-[-100px] rounded-xl bg-[#ffffff]  drop-shadow-2xl flex justify-between items-center">
+    <div className="h-[40px] w-[240px] ml-[150px] mt-[-100px] font-medium rounded-xl bg-[#ffffff]  drop-shadow-2xl flex justify-evenly items-center">
         <div className="pro">  SEASONAL ESPRESSO</div>
-        <div className="prize"> 1899</div>
+        <div className="prize font-medium text-amber-600"> 1899</div>
     </div>
 </div>
 <hr class="vertical-hr">
@@ -46,9 +46,9 @@ const pone = () => {
 
 <div className=" grid   gap-4">
     <img className='h-[350px]' src={p3}></img>
-    <div className="h-[40px] w-[240px] ml-[70px] mt-[-20px] rounded-xl bg-[#ffffff]  drop-shadow-2xl flex justify-between items-center">
+    <div className="h-[40px] w-[240px] ml-[70px] mt-[-10px] font-medium rounded-xl bg-[#ffffff]  drop-shadow-2xl flex justify-evenly items-center">
         <div className="pro">  SEASONAL ESPRESSO</div>
-        <div className="prize"> 1899</div>
+        <div className="prize font-medium text-amber-600"> 1899</div>
     </div>
 </div>
 
