@@ -382,7 +382,13 @@ h2 {
     background-color: rgb(248, 244, 244);
     margin-top: 460px;
 }
-
+/* 
+.em1 
+{
+    background-image: url(assets/coffee-beans-with-leaves-xjack9rx9v60yf8l.jpg);
+    background-size: cover;
+   bg
+} */
 .ei-1{
 
     background: url(assets/ff12372e85ab9e520a898216c3f5bb67298cb6c2-3000x3000.avif);
@@ -521,3 +527,14 @@ gap: 10px;
     margin-left: 60px;
 
 }
+
+.img-em1
+{
+    /* background-color: pink; */
+    width: 900px;
+    height: 350px;
+    margin-left: 20PX;
+    background-image: url(assets/unroasted_coffee_beans_raw_coffee_beans_green_coffee_beans_coffee_roaster.webp);
+    margin-right: -330px;
+    padding-left: 30px;
+} 
