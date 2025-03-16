@@ -6,7 +6,7 @@ const Mtwo = () => {
       
       <div className="rer">coffee  ?</div>
       <div className="h-[300px] w-full text-[#713f42] border-2 border-[#ffffff]  flex justify-center items-center po">
-        BEST COFFEE BEANS
+        --BEST COFFEE BEANS--
       </div>
     </div>
   )
