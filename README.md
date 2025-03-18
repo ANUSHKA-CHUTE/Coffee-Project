@@ -1,6 +1,7 @@
 ☕ Coffee Bliss – Your One-Stop Coffee Haven
 Brew the Best, Savor the Moment
 
+
 🌟 About Coffee Bliss
 Welcome to Coffee Bliss, an eCommerce platform crafted with passion for all coffee lovers! Whether you're a home brewer, a café owner, or just someone who enjoys the rich aroma of freshly roasted beans, we have the perfect selection for you.
 
